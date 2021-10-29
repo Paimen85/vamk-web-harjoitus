@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>My page</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav">
+                <ul class="header__menu">
+                    <li class="header__menu-item"><a class="header__menu-link" href="#home">Home</a></li>
+                    <li class="header__menu-item"><a class="header__menu-link" href="#gallery">Gallery</a></li>
+                    <li class="header__menu-item"><a class="header__menu-link" href="#video">Video</a></li>
+                    <li class="header__menu-item"><a class="header__menu-link" href="#sign-up">Sign-up</a></li>
+                    <li class="header__menu-item"><a class="header__menu-link" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="home">
+        <div class="container">
+            <div class="home__content">
+                <h1 class="title home__title">
+                    This is my home page
+                </h1>
+                <p>Here I would like to talk about <strong><em>bonsai art</em></strong></p>
+                <p>Also I will load some Gallery here</p>
+                <figure class="home__image">
+                    <img src="images/home_image.jpg" alt="bonsai tree">
+                    <figcaption>Photo by Todd Trappani</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="gallery__content">
+                <h1 class="title">
+                    There are some Bonsai images
+                </h1>
+
+                <div class="gallery__image1">
+                    <img src="images/1.jpg" alt="bonsai tree">
+                    <p class="gallery__image1-text">Some beautiful Bonsai tree</p>
+                </div>
+                <div class="gallery__image2">
+                    <p class="gallery__image2-text">Another beautiful Bonsai tree</p>
+                    <img src="images/2.jpg" alt="bonsai tree">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="video" class="video">
+        <div class="container">
+            <div class="video__content">
+                <h1 class="title">
+                    There is video about Bonsai 
+                </h1> 
+                <div class="video__youtube">
+                    <p class="video__text">
+                        Top 20 Bonsai Trees
+                    </p>
+                    <iframe width="720" height="480" src="https://www.youtube.com/embed/F70Cb-xPD9o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sign-up" class="sign_in">
+        <div class="container">
+            <div class="sign_up__content">
+                <h1 class="title">
+                    Sing-up
+                </h1> 
+                <form action="">
+                    <table class="sign_in__table">
+                        <tr>
+                            <td>Name:</td>
+                            <td><input type="text" id="fname" name="fname"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Email:
+                            </td>
+                            <td>
+                                <input type="email" id="email" name="email">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Gender:
+                            </td>
+                            <td>
+                                M <input type="radio" name="male">&nbsp
+                                F <input type="radio" name="male">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top">
+                                Interest(s):
+                            </td>
+                            <td >
+                                <input type="checkbox" name="sport">Sport <br>
+                                <input type="checkbox" name="culture">Culture <br>
+                                <input type="checkbox" name="diving">Diving <br>
+                                <input type="checkbox" name="diving">Other 
+                                <input type="text" name="other">
+                            </td>
+                        </tr >
+                        
+                            <td colspan="2" align="center">
+                                <input class="sing-up__submit" type="submit" value="Sing-up">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__content-left">
+                    <p class="footer__name">Evgeny Baranov</p>
+                    <p>Katu</p>
+                    <p>62100 Lapua</p>
+                </div>
+                <div class="footer__content-right">
+                    <p>evgeni.baranov@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

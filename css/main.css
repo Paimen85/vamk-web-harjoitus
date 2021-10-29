@@ -1,0 +1,162 @@
+/********RESET******/
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color:#000;
+    background-color: #fff;
+    
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+h1,h2,h3,h4,h5,h6,ul{
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    list-style:none;
+    margin:0;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 10px;
+}
+.title{
+    color:#662E1C;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*******HEADER*******/
+.header{
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+    z-index: 50;
+    background-color: #AF4425;
+    
+}
+.header::before{
+    position: absolute;
+    content:'';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+.header__menu{
+    position: relative;
+    height: 80px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.header__menu li{
+    margin-left: 50px;
+    color: #fff;
+    font-size: 20px;
+}
+.header__menu li:last-child{
+    margin-left: auto;
+    margin-right: 50px;
+}
+.header__menu-link{
+    color:#EBDCB2;
+}
+.header__menu-link:hover{
+    color:#C9A66B;
+}
+/*******HOME**********/
+.home{
+    padding-top: 100px;
+    height: 100vh;
+    background-color:#EBDCB2;
+}
+.home__content{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+/*******GALLERY******/
+.gallery{
+    background-color:#C9A66B;
+    height: 100%;
+    padding-top: 100px;
+}
+.gallery__image1, .gallery__image2{
+    margin-top: 20px;
+    display: flex;
+    align-items:flex-end;
+}
+.gallery__image1-text{
+    margin-left: 20px;
+}
+.gallery__image2{
+    justify-content: flex-end;
+}    
+.gallery__image2-text{
+    margin-right: 20px;
+} 
+/*******VIDEO******/
+.video{
+    padding-top: 100px;
+    height: 100vh;
+    background-color:#EBDCB2; 
+}   
+.video__youtube{
+    margin-top: 50px;
+    text-align: center;
+}
+.video__text{
+    margin-bottom: 50px;
+}
+/******SIGN_IN******/
+.sign_in{
+    background-color:#C9A66B;
+    height: calc(100vh - 100px);
+    padding-top: 100px;
+}
+.sign_up__content{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+td{
+    font-size: 20px;
+}
+.sign_in__table{
+    border-spacing: 100px 20px;
+}
+.sing-up__submit{
+    width: 150px;
+    height: 30px;
+}
+/*******FOOTER******/
+.footer{
+    background-color: #AF4425;
+    height: 100px;
+}
+.footer__content p {
+    color:#EBDCB2;
+}
+.footer__name{
+    margin-top: 0;
+    padding-top: 16px;
+}
+.footer__content{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
